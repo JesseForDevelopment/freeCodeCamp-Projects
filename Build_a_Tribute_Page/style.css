@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 4em;
+}
+h3{
+    font-size:2em;
+}
+li{
+    margin:1em 0;
+}
+a{
+    color: white;
+
+}
+#img-div{
+    margin: 10%;
+}
+#image{
+    max-width: 100%;
+    align-self: center;
+    display:block;
+    border-radius:50px;
+}
+#img-caption{
+    text-align: center;
+    font-size: large;
+    padding-top: 5%;
+    line-height: 150%;
+}
+#tribute-info{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(19, 18, 18);
+    padding: 5% 2% 5% 2%;
+}
+#time-line{
+    padding-top:2%;
+    text-align: left;
+}
+#more-info{
+    padding: 10% 1% 5% 1%;
+    font-size: 1.5em;
+}
+#tribute-link:hover{
+    color:orange;
+}
