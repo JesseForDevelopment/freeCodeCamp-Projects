@@ -1,0 +1,92 @@
+<main>
+
+    <body>
+        <section id='text-part'>
+            <h1 id='title'>
+                Blog Survey Form
+            </h1>
+            <p id='description'>
+                Thank you for taking your time impoving my blog!
+            </p>
+        </section>
+        <section id='survey-part'>
+            <form id='survey-form' action="">
+                
+                <div>
+                    <label class='question' id='name-label' for="name">Name<br>
+                        <input id='name' type="text" name="name" placeholder='Enter your name' required>
+                    </label>
+                </div>
+                <div>
+                    <label class='question' id='email-label' for="email">Email<br>
+                        <input id='email' type="email" name="email" placeholder='Enter your email' required>
+                    </label>
+                </div>
+                <div>
+                    <label class='question' id='number-label' for="number">Age<br>
+                        <input id='number' type="number" name="number" placeholder='Enter your Age' min=1 max=99
+                            required>
+                    </label>
+                </div>
+
+                <div>
+                    <label class='question' for="dropdown">Which option best describes your current role?<br>
+                        <select name="dropdown" id="dropdown">
+                            <option value="choose-one" autofocus>Choose One</option>
+                            <option value="student">Student</option>
+                            <option value="web-developer">Web Developer</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <p class="question">Will you recommend this blog to your friends?</p>
+                    <label for="radio">
+                        <input type="radio" name="radio" value="definitely">Definitely
+                    </label><br>
+                    <label for="radio">
+                        <input type="radio" name="radio" value="maybe">Maybe
+                    </label><br>
+                    <label for="radio">
+                        <input type="radio" name="radio" value="not-sure">Not Sure
+                    </label><br>
+                </div>
+
+                <div>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" value="definitely">Definitely
+                    </label>
+                    <br>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" value="maybe">Maybe
+                    </label>
+                    <br>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" value="not-sure">Not Sure
+                    </label>
+                    <br>
+                </div>
+
+                <div>
+                    
+                    <br>
+                    <label class='question' for="addition">Any comments or suggestions?<br>
+                        <textarea name="addition" id="addition" cols="30" rows="10" value=''>
+        </textarea>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="submit">
+                        <input type="submit" name="submit" id="submit">
+                    </label>
+                </div>
+            </form>
+        </section>
+
+
+    </body>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+<link rel="stylesheet" href="style.css">
